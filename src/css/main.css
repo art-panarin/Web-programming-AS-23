@@ -289,7 +289,7 @@ input[type="text"]{
     background: var(--7953-c-3-purple-main, #7953C3);
 }
 
-input[type="file"]{
+.Photo-input{
     display: none;
 }
 
@@ -297,11 +297,16 @@ input[type="file"]{
     color: var(--ffffff-white-main, #FFF);
 }
 
-.central-left-photo-text{
-    align-self: stretch;
+#CCC{
     color: #CCC;
-    text-align: center;
+}
 
+.Users_photo{
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    display: none;
+    border-radius: 16px;
 }
 
 .Main_informormation{
